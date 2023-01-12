@@ -1,5 +1,6 @@
 <template>
   <v-btn
+    :rounded="rounded"
     :block="block"
     :depressed="depressed"
     :outlined="outlined"
@@ -18,6 +19,7 @@
 export default {
   name: "ButtonSquare",
   props: {
+    rounded: Boolean,
     block: Boolean,
     depressed: Boolean,
     outlined: Boolean,

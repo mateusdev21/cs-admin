@@ -11,9 +11,6 @@
         <Nuxt />
       </v-container>
     </v-main>
-    <!-- <v-footer :absolute="!fixed" app>
-      <span>&copy; {{ new Date().getFullYear() }}</span>
-    </v-footer> -->
   </v-app>
 </template>
 
@@ -43,7 +40,7 @@ export default {
         {
           title: "Buttons",
           icon: "mdi-radiobox-blank",
-          to: "/buttons",
+          to: "/components-testing/buttons",
         },
         {
           title: "Cards",
